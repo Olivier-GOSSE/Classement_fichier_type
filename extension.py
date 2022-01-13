@@ -17,8 +17,10 @@ extension_paths = {
     '.txt':    'text/text_files',
     '.doc':    'text/microsoft/word',
     '.docx':   'text/microsoft/word',
-    '.odt ':   'text/text_files',
+    '.odt':    'text/text_files',
     '.pdf':    'text/pdf',
+    '.PDF':    'text/pdf',
+    '.epub':   'text/pdf',
     '.rtf':    'text/text_files',
     '.tex':    'text/text_files',
     '.wks ':   'text/text_files',
@@ -47,6 +49,7 @@ extension_paths = {
     '.jpg':    'media/images',
     '.jpeg':   'media/images',
     '.png':    'media/images',
+    '.PNG':    'media/image',
     '.ps':     'media/images',
     '.psd':    'media/images',
     '.svg':    'media/images',
@@ -105,6 +108,8 @@ extension_paths = {
     '.gadget': 'other/executables',
     '.jar':    'other/executables',
     '.wsf':    'other/executables',
+    '.vbox-extpack': 'other/executable',
+    '.chm':    'other/executable',
     # fonts
     '.fnt':    'other/fonts',
     '.fon':    'other/fonts',
@@ -146,5 +151,7 @@ extension_paths = {
     '.tmp':    'text/other/system',
     # 3D
     '.stl':    'other/3D',
-    '.gcod':   'other/3D'
+    '.STL':    'other/3D',
+    '.gcode':  'other/3D',
+    '.skp':    'Other/3D'
 }
